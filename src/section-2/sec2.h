@@ -3,4 +3,6 @@
 
 void basicExceptions();
 
+void standardExceptions();
+
 #endif // SEC2_H
