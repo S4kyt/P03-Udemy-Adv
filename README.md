@@ -1,0 +1,22 @@
+### Project Overview:
+
+My practice programs and excercises I do while following:
+<br>
+https://www.udemy.com/course/learn-advanced-c-programming/
+
+This project is seperated into sections, just like on the course so its more organized, clean and easier to navigate, in-case I will have to refer to the code in the future.
+<br>
+<br>
+### This Project Concludes:
+You can find the following subjects included here:
+  - Section 2:
+    - Basic Exceptions
+<br>
+
+### Learn programming:
+If you are interested in learning C++, I can wholeheartedly recommend tagging along with this course:
+<br>
+<br>
+I've had alot of troubles with understanding the basics, and having a good, easy to understand reference / tutorial that I can always go back to.
+<br>
+https://www.udemy.com/course/free-learn-c-tutorial-beginners/
