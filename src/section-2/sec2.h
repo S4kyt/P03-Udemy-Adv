@@ -5,4 +5,6 @@ void basicExceptions();
 
 void standardExceptions();
 
+void customExceptations();
+
 #endif // SEC2_H

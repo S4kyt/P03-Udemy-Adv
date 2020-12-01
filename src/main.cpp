@@ -16,9 +16,10 @@ void sectionTwoMenu() {
 		std::cout << "Choose which subject you'd like to view: " << std::endl;
 		std::cout << "1. Basic Exceptions" << std::endl;
 		std::cout << "2. Standard Exceptions" << std::endl;
+		std::cout << "3. Custom Exceptions" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "3. Return to main menu." << std::endl;
+		std::cout << "4. Return to main menu." << std::endl;
 
 		std::cin >> menuInput;
 
@@ -36,6 +37,11 @@ void sectionTwoMenu() {
 			standardExceptions();
 		}
 		else if (menuInput == "3")
+		{
+			clearScreen();
+			customExceptations();
+		}
+		else if (menuInput == "4")
 		{
 			// Return to previous menu
 			std::cout << "Returning to main menu." << std::endl;

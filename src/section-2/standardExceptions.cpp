@@ -1,8 +1,8 @@
 // Standard Exceptions
 
-#include "../util.h"
-
 #include <iostream>
+
+#include "../util.h"
 
 class CanGoWrong {
 public:
