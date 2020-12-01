@@ -25,12 +25,10 @@ void customExceptations() {
 	
 	Test test;
 
-	try
-	{
+	try {
 		test.goesWrong();
 	}
-	catch (MyException &e)
-	{
+	catch (MyException &e) {
 		std::cout << e.what() << std::endl;
 	}
 

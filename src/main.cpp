@@ -17,9 +17,10 @@ void sectionTwoMenu() {
 		std::cout << "1. Basic Exceptions" << std::endl;
 		std::cout << "2. Standard Exceptions" << std::endl;
 		std::cout << "3. Custom Exceptions" << std::endl;
+		std::cout << "4. Exception Catching Order" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "4. Return to main menu." << std::endl;
+		std::cout << "5. Return to main menu." << std::endl;
 
 		std::cin >> menuInput;
 
@@ -42,6 +43,11 @@ void sectionTwoMenu() {
 			customExceptations();
 		}
 		else if (menuInput == "4")
+		{
+			clearScreen();
+			exceptionCatchingOrder();
+		}
+		else if (menuInput == "5")
 		{
 			// Return to previous menu
 			std::cout << "Returning to main menu." << std::endl;

@@ -21,7 +21,8 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\section-2\basicExceptions.cpp" />
-    <ClCompile Include="src\section-2\customExceptations.cpp" />
+    <ClCompile Include="src\section-2\customExceptions.cpp" />
+    <ClCompile Include="src\section-2\exceptionsCatchingOrder.cpp" />
     <ClCompile Include="src\section-2\standardExceptions.cpp" />
     <ClCompile Include="src\util.cpp" />
   </ItemGroup>

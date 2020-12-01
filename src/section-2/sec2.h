@@ -7,4 +7,6 @@ void standardExceptions();
 
 void customExceptations();
 
+void exceptionCatchingOrder();
+
 #endif // SEC2_H

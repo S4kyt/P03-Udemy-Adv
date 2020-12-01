@@ -12,8 +12,7 @@ void throwBasicException() {
 
 	bool error = true;
 
-	if (error)
-	{
+	if (error) {
 		throw;
 	}
 }
@@ -28,16 +27,13 @@ void exceptionHandling() {
 
 
 	// As soon as this gets thrown, error2 or error3 wont get excecuted, we return to basicExceptions() instead!
-	if (error1)
-	{
+	if (error1) {
 		throw 16;
 	}
-	if (error2)
-	{
+	if (error2) {
 		throw "Char const string exception";
 	}
-	if (error3)
-	{
+	if (error3) {
 		// 1. This is creating an object of the string class
 		throw std::string("String exception");
 	}
