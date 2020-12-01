@@ -1,6 +1,6 @@
 ### Project Overview:
 
-My practice programs and excercises I do while following:
+My practice programs and excercises, and most importantly notes I take, create while following:
 <br>
 https://www.udemy.com/course/learn-advanced-c-programming/
 
