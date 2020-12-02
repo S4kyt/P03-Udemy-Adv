@@ -21,10 +21,19 @@
     <ClCompile Include="src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\section-2\basicExceptions.cpp">
+    <ClCompile Include="src\section-3\readingAndWritingBinaryFiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\section-2\standardExceptions.cpp">
+    <ClCompile Include="src\section-3\readingTextFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-3\structsAndPadding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-3\writingTextFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-3\parsingTextFiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\section-2\customExceptions.cpp">
@@ -33,12 +42,21 @@
     <ClCompile Include="src\section-2\exceptionsCatchingOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\section-2\standardExceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-2\basicExceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\section-2\sec2.h">
+    <ClInclude Include="src\section-3\sec3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sections.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
