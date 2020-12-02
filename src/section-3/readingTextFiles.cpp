@@ -5,7 +5,10 @@
 #include "../util.h"
 
 void readingTextFiles() {
-	std::cout << "Reading Text Files" << std::endl;
+	
+
+	//"src/section-3/writingReading.txt";
+
 
 	toContinue();
 }
