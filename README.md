@@ -9,8 +9,23 @@ This project is seperated into sections, just like on the course so its more org
 <br>
 ### This Project Concludes:
 You can find the following subjects included here:
-  - Section 2:
+  ### Section 2:
     - Basic Exceptions
+    - Standard Exceptions
+    - Custom Exceptions
+    - Exception Catching Order
+  ### Section 3:
+    - Writing Text Files
+    - Reading Text Files
+    - Parsing Text Files
+    - Structs And Padding
+    - Reading And Writing Binary Files
+  ### Section 4:
+    - Vectors
+    - Vectory And Memory
+    - Two-Dimensional Vectors
+    - Lists
+    
 <br>
 
 ### Learn programming:
