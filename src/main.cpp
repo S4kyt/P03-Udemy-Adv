@@ -16,9 +16,10 @@ int main()
 		std::cout << "Choose which section's subjects you'd like to view: " << std::endl;
 		std::cout << "1. Section 2" << std::endl;
 		std::cout << "2. Section 3" << std::endl;
+		std::cout << "3. Section 4" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "4. Exit program" << std::endl;
+		std::cout << "5. Exit program" << std::endl;
 
 		std::cin >> menuInput;
 
@@ -38,10 +39,16 @@ int main()
 		else if (menuInput == "3")
 		{
 			// Section 4:
-			//sectionFourMenu()
+			sectionFourMenu();
 			clearScreen();
 		}
 		else if (menuInput == "4")
+		{
+			// Section 5:
+			//sectionFiveMenu();
+			clearScreen();
+		}
+		else if (menuInput == "5")
 		{
 			// Exit
 			std::cout << "Exiting..." << std::endl;

@@ -29,10 +29,15 @@
     <ClCompile Include="src\section-3\readingTextFiles.cpp" />
     <ClCompile Include="src\section-3\structsAndPadding.cpp" />
     <ClCompile Include="src\section-3\writingTextFiles.cpp" />
+    <ClCompile Include="src\section-4\listsPractice.cpp" />
+    <ClCompile Include="src\section-4\twoDimensionalVectors.cpp" />
+    <ClCompile Include="src\section-4\vectorsAndMemory.cpp" />
+    <ClCompile Include="src\section-4\vectorsPractice.cpp" />
     <ClCompile Include="src\util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\section-3\sec3.h" />
+    <ClInclude Include="src\section-4\sec4.h" />
     <ClInclude Include="src\sections.h" />
     <ClInclude Include="src\util.h" />
   </ItemGroup>
