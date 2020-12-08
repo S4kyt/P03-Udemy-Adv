@@ -25,6 +25,10 @@ You can find the following subjects included here:
     - Vectory And Memory
     - Two-Dimensional Vectors
     - Lists
+    - Maps
+    - Custom Objects As Map Values
+    - Custom Objects As Key Values
+    - Multimaps
     
 <br>
 
