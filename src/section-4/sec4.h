@@ -9,4 +9,12 @@ void twoDimensionalVectors();
 
 void listsPractice();
 
+void mapsPractice();
+
+void customObjectsAsMapValues();
+
+void customObjectsAsMapKeys();
+
+void multiMaps();
+
 #endif // SEC4_H

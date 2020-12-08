@@ -147,9 +147,13 @@ void sectionFourMenu() {
 		std::cout << "2. Vectory And Memory" << std::endl;
 		std::cout << "3. Two-Dimensional Vectors" << std::endl;
 		std::cout << "4. Lists" << std::endl;
+		std::cout << "5. Maps" << std::endl;
+		std::cout << "6. Custom Objects As Map Values" << std::endl;
+		std::cout << "7. Custom Objects As Map Keys" << std::endl;
+		std::cout << "8. Multimaps" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "5. Return to main menu." << std::endl;
+		std::cout << "9. Return to main menu." << std::endl;
 
 		std::cin >> menuInput;
 
@@ -179,6 +183,30 @@ void sectionFourMenu() {
 			listsPractice();
 		}
 		else if (menuInput == "5")
+		{
+			// Maps
+			clearScreen();
+			mapsPractice();
+		}
+		else if (menuInput == "6")
+		{
+			// Custom Objects As Map Values
+			clearScreen();
+			customObjectsAsMapValues();
+		}
+		else if (menuInput == "7")
+		{
+			// Custom Objects As Map Keys
+			clearScreen();
+			customObjectsAsMapKeys();
+		}
+		else if (menuInput == "8")
+		{
+			// Multimaps
+			clearScreen();
+			multiMaps();
+		}
+		else if (menuInput == "9")
 		{
 			// Return to previous menu
 			std::cout << "Returning to main menu." << std::endl;

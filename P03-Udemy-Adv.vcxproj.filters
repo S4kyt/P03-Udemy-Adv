@@ -13,6 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\sec4">
+      <UniqueIdentifier>{9b0ef9ba-ae26-4876-afca-17efdeecfbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sec3">
+      <UniqueIdentifier>{4e9fa0dc-3fb5-4d53-b293-b3123e818e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sec2">
+      <UniqueIdentifier>{5734a349-90cf-4832-b8e6-6632d64e5382}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -21,44 +30,56 @@
     <ClCompile Include="src\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\section-3\parsingTextFiles.cpp">
+      <Filter>Source Files\sec3</Filter>
+    </ClCompile>
     <ClCompile Include="src\section-3\readingAndWritingBinaryFiles.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec3</Filter>
     </ClCompile>
     <ClCompile Include="src\section-3\readingTextFiles.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec3</Filter>
     </ClCompile>
     <ClCompile Include="src\section-3\structsAndPadding.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec3</Filter>
     </ClCompile>
     <ClCompile Include="src\section-3\writingTextFiles.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\section-3\parsingTextFiles.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\section-2\customExceptions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\section-2\exceptionsCatchingOrder.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\section-2\standardExceptions.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec3</Filter>
     </ClCompile>
     <ClCompile Include="src\section-2\basicExceptions.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec2</Filter>
     </ClCompile>
-    <ClCompile Include="src\section-4\twoDimensionalVectors.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\section-2\customExceptions.cpp">
+      <Filter>Source Files\sec2</Filter>
     </ClCompile>
-    <ClCompile Include="src\section-4\vectorsAndMemory.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\section-2\exceptionsCatchingOrder.cpp">
+      <Filter>Source Files\sec2</Filter>
     </ClCompile>
-    <ClCompile Include="src\section-4\vectorsPractice.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\section-2\standardExceptions.cpp">
+      <Filter>Source Files\sec2</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\customObjectsAsMapKeys.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\customObjectsAsMapValues.cpp">
+      <Filter>Source Files\sec4</Filter>
     </ClCompile>
     <ClCompile Include="src\section-4\listsPractice.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\mapsPractice.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\multiMaps.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\twoDimensionalVectors.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\vectorsPractice.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\vectorsAndMemory.cpp">
+      <Filter>Source Files\sec4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
