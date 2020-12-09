@@ -151,9 +151,13 @@ void sectionFourMenu() {
 		std::cout << "6. Custom Objects As Map Values" << std::endl;
 		std::cout << "7. Custom Objects As Map Keys" << std::endl;
 		std::cout << "8. Multimaps" << std::endl;
+		std::cout << "9. Sets" << std::endl;
+		std::cout << "10. Stacks And Queues" << std::endl;
+		std::cout << "11. Sorting Vectors, Dequq And Friend" << std::endl;
+		std::cout << "12. STL Complex Data Types" << std::endl;
 
 		std::cout << "\n";
-		std::cout << "9. Return to main menu." << std::endl;
+		std::cout << "13. Return to main menu." << std::endl;
 
 		std::cin >> menuInput;
 
@@ -207,6 +211,30 @@ void sectionFourMenu() {
 			multiMaps();
 		}
 		else if (menuInput == "9")
+		{
+			// Sets
+			clearScreen();
+			setsPractice();
+		}
+		else if (menuInput == "10")
+		{
+			// Stacks And Queues
+			clearScreen();
+			stacksAndQueues();
+		}
+		else if (menuInput == "11")
+		{
+			// Sorting Vectors, Deque And Friend
+			clearScreen();
+			sortingVectorsDequeAndFriend();
+		}
+		else if (menuInput == "12")
+		{
+			// STL Complex Data Types
+			clearScreen();
+			stlComplexDataTypes();
+		}
+		else if (menuInput == "13")
 		{
 			// Return to previous menu
 			std::cout << "Returning to main menu." << std::endl;

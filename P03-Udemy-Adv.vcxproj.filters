@@ -81,6 +81,18 @@
     <ClCompile Include="src\section-4\vectorsAndMemory.cpp">
       <Filter>Source Files\sec4</Filter>
     </ClCompile>
+    <ClCompile Include="src\section-4\setsPractice.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\sortingVectorsDequeAndFriend.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\stacksAndQueues.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
+    <ClCompile Include="src\section-4\stlComplexDataTypes.cpp">
+      <Filter>Source Files\sec4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\util.h">

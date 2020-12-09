@@ -34,6 +34,10 @@
     <ClCompile Include="src\section-4\listsPractice.cpp" />
     <ClCompile Include="src\section-4\mapsPractice.cpp" />
     <ClCompile Include="src\section-4\multiMaps.cpp" />
+    <ClCompile Include="src\section-4\setsPractice.cpp" />
+    <ClCompile Include="src\section-4\sortingVectorsDequeAndFriend.cpp" />
+    <ClCompile Include="src\section-4\stacksAndQueues.cpp" />
+    <ClCompile Include="src\section-4\stlComplexDataTypes.cpp" />
     <ClCompile Include="src\section-4\twoDimensionalVectors.cpp" />
     <ClCompile Include="src\section-4\vectorsAndMemory.cpp" />
     <ClCompile Include="src\section-4\vectorsPractice.cpp" />
